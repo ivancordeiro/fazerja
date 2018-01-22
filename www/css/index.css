@@ -90,7 +90,7 @@ h1 {
 
 
 
-
+/*
 
 .ifrBrowser{
 width:100%;
@@ -99,7 +99,7 @@ width:100%;
 
 
 
-/* de 1024  pra cima */
+
 @media only screen and (min-height: 851px) {
 
 .ifrBrowser{
@@ -111,7 +111,6 @@ width:100%;
 
 
 
-/* 800  */
 @media only screen and (max-height: 850px) and (min-height: 701px) {
 
 .ifrBrowser{
@@ -123,7 +122,6 @@ width:100%;
 
 
 
-/* 650  */
 @media only screen and (max-height: 700px) and (min-height: 551px) {
 
 .ifrBrowser{
@@ -135,7 +133,7 @@ width:100%;
 
 
 
-/* 480  */
+
 @media only screen and (max-height: 550px) and (min-height: 351px) {
 
 .ifrBrowser{
@@ -146,7 +144,7 @@ width:100%;
 
 
 
-/* 320 pra baixo */
+
 @media only screen and (max-height: 350px) {
 
 .ifrBrowser{
@@ -155,5 +153,6 @@ width:100%;
 
 }
 
+*/
 
 /* 320 480 800 1024 */	
