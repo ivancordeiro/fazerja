@@ -17,8 +17,16 @@ cordova.InAppBrowser.open(encodeURI('http://fazerja.com.br/site/index.php?app=s'
 
 }
 
+
+document.getElementById('fechar').style.display = 'block';
+
+
 }
 
 
+
+function fechar(){
+navigator.app.exitApp();
+}
 	   
 
