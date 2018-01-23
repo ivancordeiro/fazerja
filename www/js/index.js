@@ -49,8 +49,8 @@ alert('O aplicativo nao detectou conexao com internet.');
 
 var altTela = parseInt( screen.height ) ;
 if( altTela != '' && altTela != 'undefined'  && altTela != 0 ){
-alert(altTela);
-document.getElementById("ifrBrowser").style.height = altTela - 50 +"px";
+//alert(altTela);
+document.getElementById("ifrBrowser").style.height = altTela - 70 +"px";
 }
 
 var urlBrow = 'http://fazerja.com.br/site/index.php?app=s';
